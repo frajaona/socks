@@ -6,7 +6,9 @@
 //
 //
 
+#if SWIFT_PACKAGE
 import SocksCore
+#endif
 
 /// Represents an established TCP connection.
 public class TCPClient {

@@ -6,7 +6,9 @@
 //
 //
 
+#if SWIFT_PACKAGE
 import SocksCore
+#endif
 
 public class SynchronousTCPServer {
     
