@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "socks"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "Pure-Swift Sockets: TCP, UDP; Client, Server; Linux, OS X."
 
   s.description  = <<-DESC
