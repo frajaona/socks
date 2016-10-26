@@ -33,6 +33,7 @@ public class UDPInternetSocket: InternetSocket {
         self.address = address
 
         self.reuseAddress = true
+        self.allowBroadcast = true
     }
 
     public convenience init(address: InternetAddress) throws {
